@@ -154,19 +154,19 @@
 
 // // Question 2. Repeat task1 for subtraction, multiplication, division & modulus.
 
-///subtraction///
+//subtraction//
 // var num1 = 3;
 // var num2 = 5;
 // var sub =  num1 - num2;
 
 // document.write("Sum of " + num1 + " "  + " - "  +   " " + num2  + " " + "is" + " " + sub)
 
-///multiplication///
-var num1 = 3;
-var num2 = 5;
-var mul =  num1 * num2;
+// //multiplication//
+// var num1 = 3;
+// var num2 = 5;
+// var mul =  num1 * num2;
 
-document.write("Sum of " + num1 + " "  + " * "  +   " " + num2  + " " + "is" + " " + mul)
+// document.write("Sum of " + num1 + " "  + " * "  +   " " + num2  + " " + "is" + " " + mul)
 
 ///divide///
 // var num1 = 3;
@@ -175,12 +175,87 @@ document.write("Sum of " + num1 + " "  + " * "  +   " " + num2  + " " + "is" + "
 
 // document.write("Sum of " + num1 + " "  + " / "  +   " " + num2  + " " + "is" + " " +div)
 
-//     ///module///
+///module//
 // var num1 = 10;
 // var num2 = 3;
 // var mod =  num1 % num2;
 
 // document.write("Sum of " + num1 + " "  + " % "  +   " " + num2  + " " + "is" + " " + mod)
 
+// // Question 3. Do the following using JS Mathematic Expressions.
+
+// var undefined = "";
+// var a = 5;
+// var b = a;
+// var c = ++b;
+// var d = c+7;
+// var e = d;
+
+// document.write("Value after variable declaration is " + undefined);
+// document.write("<br>Initial Value:" + a);
+// document.write("<br>Value after increment is: "  + c);
+// document.write("<br>Value after addition is: "  + d);
+// document.write("<br>Value after decrement is: "  + --e);
+// document.write("<br>The remainder is: "  + e%3);
+
+// // Question 4. Cost of one movie ticket is 600 PKR.
+// var ticket = 600;
+// var cost = ticket*5;
+// document.write("Total Cost to buy 5 tickets to a movie is " + cost +"PKR");
 
 
+// // Question 5. Write a script to display multiplication table of any number in your browser
+// for(var i = 1 ; i<=10 ; i++ ){
+
+//     document.write("6 x" + " " + i + " " + "=" + " " + 6*i + "<br>" )
+
+// }
+
+// // Question 6. The Temperature Converter: It’s hot out! Let’s make a converter based on the steps here.
+// var cel = 30;
+// var convertF = (cel * 9/5) + 32
+// // console.log(convert)
+// document.write(cel + " " + "oC is " + " " + convertF + "oF </br>" )
+
+// var f = 70 ; 
+// var convertC = (f - 32 ) * 5/9
+// document.write( f + " " + "oF is " + " " + convertC + "oC" )
+
+// // Question 7. Write a program to implement checkout process of a shopping cart system for an e-commerce website.
+
+// var heading = "Shopping Cart"
+// var price1 = prompt("Enter Your First  Item Price");
+// var quant1 =  prompt("Enter Your First  Item Quantity");
+// var price2 = prompt("Enter Your Second Item Price") ;
+// var quant2 = prompt("Enter Your Second Item Quantity") ;
+// var charges = 100;
+// var totalPrice = ((price1*quant1)+(price2*quant2)+charges);
+// document.write("<br><br>"+ heading+"<br>");
+// document.write("<br>"+"Price of item 1 is "+ price1);
+// document.write("<br>"+"Quantity of item 1 is "+ quant1);
+// document.write("<br>"+"Price of item 2 is "+ price2);
+// document.write("<br>"+"Quantity of item 2 is "+ quant2);
+// document.write("<br>"+"Shipping Charges  "+ charges);
+// document.write("<br><br>"+"Total Cost of your order is "+ totalPrice);
+
+// // Question 8. Store total marks & marks obtained by a student in 2 variables.
+// var totalMarks = 980;
+// var obtainmarks = 804;
+// var per = obtainmarks / totalMarks *100
+// document.write(`Total Marks: ${totalMarks} <br>
+//                 Marks Obtained: ${obtainmarks} <br>
+//                 Percentage:${per}%    `)
+
+
+// // Question 9. Assume we have 10 US dollars & 25 Saudi Riyals.
+
+// var usdIntoPkr = 10 * 104.80
+// var riyalIntoPkr = 25 * 28 
+// var total = usdIntoPkr + riyalIntoPkr
+// document.write("total Currency INto pkr IS"+" "+total)
+
+// // Question 10. Write a program to initialize a variable with some number and do arithmetic in following sequence.
+
+// var number = 15;
+// var allinone = (number + 5 * 10) / 2
+// document.write(allinone)
