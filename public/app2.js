@@ -96,20 +96,20 @@
 // document.write("<br>" +updArr);
 
 
-//10 Write a program to store student scores in an array
+//Question 10. Write a program to store student scores in an array
 // var stdScore = [320,230,480,120];
 // document.write("Score of students:"+" "+stdScore+"<br>")
 // stdScore.sort()
 // document.write("Ordered Score of students:"+" "+stdScore+"<br>")
 
 
-//11 Write a program to initialize an array with city names
+//Question 11. Write a program to initialize an array with city names
 
 // var cities = ["karachi" , "Lahore" , "Islamabad" , "Quetta" , "Peshawar"];
-// var selectedCities = cities.slice(2,4);
+// var selectedCities = cities.slice(2,3);
 // document.write("Cities list :" + selectedCities)            
 
-//12
+//Question 12.
 
 // document.write("<h1>Arrays:</h1>")
 // var arr = ["This",  " is ", " my ",  "cat"];
@@ -118,7 +118,7 @@
 // var joinArr = arr.join("")
 // document.write(joinArr)
 
-//13
+//Question 13.
 
 // var deviceArr = ["keyboard","mouse","printer","moniter"];
 // document.write("<br>"+"Devices"+"<br>"+deviceArr+"<br><br>");
@@ -127,16 +127,15 @@
 // document.write("Out:"+ "<br>" +deviceArr[2]+"<br>");
 // document.write("Out:"+ "<br>" +deviceArr[3]+"<br>");
 
-//14
+//Question 14.
 
 // var deviceArr = ["keyboard","mouse","printer","moniter"];
 // document.write("<br>"+"Devices"+"<br>"+deviceArr+"<br><br>");
-// document.write("Out:"+ "<br>" +deviceArr[3]+"<br>");
-// document.write("Out:"+ "<br>" +deviceArr[2]+"<br>");
-// document.write("Out:"+ "<br>" +deviceArr[1]+"<br>");
-// document.write("Out:"+ "<br>" +deviceArr[0]+"<br>");
+// deviceArr.reverse();
+// document.write("Out:"+ "<br>" +deviceArr+"<br>");
 
-//15
+
+//Question 15.
 
 // var mobiles = ["Apple","Samsung", "Motorola", "Nokia", "Sony" , "Haier"];
 // document.write("<select>")
@@ -144,3 +143,99 @@
 //     document.write("<option>" + mobiles[i]  +"</option>")
 // }            
 // document.write("</select>")  
+
+
+
+// // Chapter 17-20
+
+//Question 1.Declare and initialize an empty multidimensional array.
+
+// var multiArr = [[1], [2], [3]];
+
+//Question 2.Declare and initialize a multidimensional array representing the following matrix:
+
+// var arr = [[0,1,2,3],[1,0,1,2],[2,1,0,1]];
+// document.write(arr[0].join(" ")+"</br>");
+// document.write(arr[1].join(" ")+"</br>");
+// document.write(arr[2].join(" ")+"</br>");
+
+//Question 3.Declare and initialize a multidimensional array representing the following matrix:
+
+// for(var i = 1;i <= 10 ; i++){
+//     document.write(i + "<br>")
+// }
+
+//Question 4.Write a program to print multiplication table of any number using for loop. 
+
+// var table = parseInt(prompt("Enter the table number you want to print"));
+// var tableLength = parseInt(prompt("Enter the length of  table number"));
+// document.write("<br>" + "Multiplication Table of " + table);
+// document.write("<br>" + "Table Length You Entered " + tableLength + "<br><br>");
+// for (var i = 1; i <= tableLength; i++) {
+//     document.write(table + " x " + i + " = " + table * i + "<br>");
+// }
+
+//Question 5.Write a program to print items of the following array using for loop
+
+// var fruits = ["apple", "banana", "mango", "orange" , "strawberry"];
+
+// for(var i = 0; i < 5; i++){
+//     document.write(fruits[i] + "<br>");
+// }
+
+// for (var i = 0; i < fruits.length; i++) {
+//     document.write("Element at index " + i + " is " + fruits[i] + "<br>");
+// }
+
+
+//Question 6.Generate the following series in your browser
+
+// a.
+
+// for (var i = 1; i <= 15; i++) {
+//     document.write(i + ",");
+// }
+
+// b.
+
+// for (var i = 10; i >= 1; i--) {
+//     document.write(i + ",");
+// }
+
+// c.
+
+// for (var i = 0; i <= 10; i++) {
+//     document.write(i * 2 + ",");
+// }
+
+// d.
+// for (var i = 1; i <= 19; i++) {
+//     document.write(i++ + ",");
+// }
+
+
+//e.
+// for (var i = 1; i <= 10; i++) {
+//     document.write(i * 2 + "k" + " ");
+// }
+
+//Question 7.Write a program to enable “search by user input”
+
+
+//Question 8.Write a program to identify the largest number in the given array
+// var numArr = [24, 53, 78, 91, 12];
+// document.write("Array items is:" + " " + numArr + "<br>");
+// document.write("The largest number is:" + " " + Math.max(...numArr));
+
+//Question 9.Write a program to identify the largest number in the given array
+
+// var numArr2 = [24, 53, 78, 91, 12];
+// document.write("Array items is:" + " " + numArr2 + "<br>");
+// document.write("The smallest number is:" + " " + Math.min(...numArr2));
+
+
+//Question 10.Write a program to print multiples of 5 ranging 1 to 100
+
+// for(var i = 1; i <= 20; i++){
+//     document.write(i * 5 + ",");
+// }
