@@ -1,4 +1,4 @@
-// // Chapter 1
+// // Chapter 21- 25
 
 // // Question 1. Write a program that takes two user inputs for first.
 
@@ -91,6 +91,14 @@
 
 // // Question 13.
 
+// var names = prompt("UserName:")
+// for (var i = 0; i < names.length; i++) {
+//     if (names[i].charCodeAt() === 33 || names[i].charCodeAt() === 44 || names[i].charCodeAt() === 46 || names[i].charCodeAt() === 64) {
+//         alert("Please enter a valid userName")
+//     }
+// }
+// alert(names)
+
 // // Question 14.
 
 // // Question 15.
@@ -117,3 +125,74 @@
 // var occurances = (text.toLowerCase().match(/the/g)).length;
 // document.write("<br><br>Text: " + text);
 // document.write("<br>There are " + occurances + " of the word 'the'");
+
+
+// // Chapter 25- 30
+
+// // Q NO. 1
+
+// var number = +prompt("Enter Positive Number");
+// document.write("Number :" + number + "<br>");
+// document.write("Round off value:" + Math.round(number) + "<br>");
+// document.write("Ceil value: " + Math.ceil(number) + "<br>");
+// document.write("Floor value:" + Math.floor(number) + "<br>");
+
+// Q NO. 2
+
+// var number = +prompt("Enter Positive Number");
+// document.write("Number :" + number + "<br>");
+// document.write("Round off value:" + Math.round(number) + "<br>");
+// document.write("Ceil value: " + Math.ceil(number) + "<br>");
+// document.write("Floor value:" + Math.floor(number) + "<br>");
+
+// Q NO. 3
+
+// var num = +prompt("Enter a Negative Number:");
+// document.write("Value: " + num);
+// document.write("<br>Absolute Value: " +Math.abs(num));
+
+// Q NO. 4
+
+// var diceValue = Math.round((Math.random() *6) + 1);
+// document.write("Random dice value: " + diceValue);
+// document.write("<br>Random dice value: " + diceValue);
+
+// Q NO. 5
+// var coin = Math.random() * 2 + 1;
+// coin = Math.floor(coin);
+// if (coin === 2) {
+//     document.write(`${coin} <br> Random coin values : Heads`)
+// } else if (coin === 1) {
+//     document.write(`${coin} <br> Random coin values : Tails`)
+
+// }
+
+// Q NO. 6
+
+// var num = Math.random() * 100 + 1;
+// var num = Math.floor(num);
+// document.write("Random number between 1 to 100:" + num );
+
+// Q NO. 7
+
+// var userWeight= Number(prompt("Enter Your Weight"));
+// if (userWeight==Math.round(userWeight) || userWeight==Math.floor(userWeight)) {
+//     document.write("<br><br>The weight of the user is"+userWeight +"");
+//     document.write("<br><br>The weight of the user is"+userWeight +"Kilograms");
+//     document.write("<br><br>The weight of the user is"+userWeight +"KG");
+// } else {
+//     document.write("Wrong");
+// }
+
+// Q NO. 8
+
+
+// var secretNum = Math.round((Math.random() *10) + 1);
+// var userNum = prompt("Enter a number between 1 to 10:");
+
+// if (userNum === secretNum) {
+//     document.write("Congrats!");
+// }
+// else{
+//     alert("Try Again!");
+// }
